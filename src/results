@@ -1,0 +1,21 @@
+load_locations() executed in 0:05:49.762366
+aload_locations() executed in 0:01:31.251232
+aload_locations2(1) executed in 0:05:31.544556
+aload_locations2(2) executed in 0:02:43.134358
+aload_locations2(5) executed in 0:01:27.691749
+aload_locations2(10) executed in 0:01:28.446085
+aload_locations2(15) executed in 0:01:29.826160
+aload_locations2(25) executed in 0:01:27.654448
+aload_locations2(50) executed in 0:01:28.932333
+
+#####
+
+load_locations() executed in 0:05:49.762366
+aload_locations() failed(to many connection)
+aload_locations2(1) executed in 0:05:15.333499
+4 aload_locations2(2) executed in 0:01:30.015236
+25 aload_locations2(5) executed in 0:01:24.249862
+100 aload_locations2(10) executed in 0:01:21.761571
+225 aload_locations2(15) executed in 0:01:28.131553
+625 aload_locations2(25) executed in 0:01:30.373965
+2500 aload_locations2(50) executed in 0:01:37.238639

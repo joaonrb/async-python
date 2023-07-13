@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "async-python"
+version = "0.1.0"
+description = ""
+authors = ["João Nuno <joaonrb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "demo", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.0.2"
+aiohttp = "^3.8.4"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
